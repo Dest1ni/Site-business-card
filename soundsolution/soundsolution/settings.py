@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-nqjt26d-*f4e5de_(q=*taz2u#m(cdk2s8!t#)$ggjz_g#m*7k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['Dest1ni.pythonanywhere.com']
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -59,7 +59,7 @@ ROOT_URLCONF = 'soundsolution.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
