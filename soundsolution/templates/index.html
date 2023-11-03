@@ -27,7 +27,7 @@
             <div class="features-width">
               <img src="{% static 'assets/images/Group12.svg' %}" alt="" class="img-icons">
               <h3 class="py-3">Быстро</h3>
-              <p class="text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+              <p class="text-muted" style="font-size: 18px;"> Мы организуем всё в кратчайшие сроки, чтобы ваши мечты стали реальностью! </p>
               <!-- <a href="#"><p class="readmore-link">Readmore</p></a>  -->
             </div>
           </div>
@@ -43,7 +43,7 @@
             <div class="features-width">
               <img src="{% static 'assets/images/Group5.svg' %}" alt="" class="img-icons">
               <h3 class="py-3">Надёжно</h3>
-              <p class="text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum. Fusce egeabus consectetuer turpis, suspendisse.</p>
+              <p class="text-muted" style="font-size: 18px;">Мы работаем не первый год и делаем людей счастливыми ежедневно !</p>
               <!-- <a href="#"><p class="readmore-link">Readmore</p></a> -->
             </div>
           </div>
@@ -79,26 +79,26 @@
       <section class="case-studies" id="case-studies-section">
         <div class="row grid-margin">
           <div class="col-12 text-center pb-5">
-            <h2>Our case studies</h2>
-            <h6 class="section-subtitle text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum.</h6>
+            <h2>С чем мы можем вам помочь ?</h2>
+            <h5 class="section-subtitle text-muted">Всё что вы пожелаете !</h5>
           </div>
           <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in">
             <div class="card color-cards">
               <div class="card-body p-0">
-                <div class="bg-primary text-center card-contents">
+                <div class="bg-warning text-center card-contents">
                   <div class="card-image">
-                    <img src="{% static 'assets/images/Group95.svg' %}" class="case-studies-card-img" alt="">
+                    <img src="{% static 'assets/images/birthday.png' %}" class="case-studies-card-img" alt="">
                   </div>  
                   <div class="card-desc-box d-flex align-items-center justify-content-around">
                     <div>
-                      <h6 class="text-white pb-2 px-3">Know more about Online marketing</h6>
-                      <button class="btn btn-white">Read More</button>
+                      <h4 class="text-white pb-2 px-3">{{birthdays}}</h4>
+                      <!-- <button class="btn btn-white">Read More</button> -->
                     </div>
                   </div>
                 </div>   
                 <div class="card-details text-center pt-4">
-                    <h6 class="m-0 pb-1">Online Marketing</h6>
-                    <p>Seo, Marketing</p>
+                    <h4 class="m-0 pb-1">Дни рождения</h4>
+                    <!-- <p>Seo, Marketing</p> -->
                 </div>
               </div>
             </div>
@@ -106,20 +106,20 @@
           <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="card color-cards">
               <div class="card-body p-0">
-                <div class="bg-warning text-center card-contents">
+                <div class="bg-primary text-center card-contents">
                   <div class="card-image">
-                      <img src="{% static 'assets/images/Group108.svg' %}" class="case-studies-card-img" alt="">
+                      <img src="{% static 'assets/images/concert.png' %}" class="case-studies-card-img" alt="">
                   </div>  
                   <div class="card-desc-box d-flex align-items-center justify-content-around">
                     <div>
-                      <h6 class="text-white pb-2 px-3">Know more about Web Development</h6>
-                      <button class="btn btn-white">Read More</button>
+                      <h4 class="text-white pb-2 px-3">{{concerts}}</h4>
+                      <!-- <button class="btn btn-white">Read More</button> -->
                     </div>
                   </div>
                 </div>   
                 <div class="card-details text-center pt-4">
-                    <h6 class="m-0 pb-1">Web Development</h6>
-                    <p>Developing, Designing</p>
+                    <h4 class="m-0 pb-1">Концерты</h4>
+                    <!-- <p>Developing, Designing</p> -->
                 </div>
               </div>
             </div>
@@ -129,18 +129,18 @@
               <div class="card-body p-0">
                 <div class="bg-violet text-center card-contents">
                   <div class="card-image">
-                      <img src="{% static 'assets/images/Group126.svg' %}" class="case-studies-card-img" alt="">
+                      <img src="{% static 'assets/images/wedding.png' %}" class="case-studies-card-img" alt="">
                   </div>  
                   <div class="card-desc-box d-flex align-items-center justify-content-around">
                     <div>
-                      <h6 class="text-white pb-2 px-3">Know more about Web Designing</h6>
-                      <button class="btn btn-white">Read More</button>
+                      <h4 class="text-white pb-2 px-3">{{weddings}}</h4>
+                      <!-- <button class="btn btn-white">Read More</button> -->
                     </div>
                   </div>
                 </div>   
                 <div class="card-details text-center pt-4">
-                    <h6 class="m-0 pb-1">Web Designing</h6>
-                    <p>Designing, Developing</p>
+                    <h4 class="m-0 pb-1">Свадьбы</h4>
+                    <!-- <p>Designing, Developing</p> -->
                 </div>
               </div>
             </div>
@@ -150,18 +150,18 @@
               <div class="card-body p-0">
                 <div class="bg-success text-center card-contents">
                   <div class="card-image">
-                      <img src="{% static 'assets/images/Group115.svg' %}" class="case-studies-card-img" alt="">
+                      <img src="{% static 'assets/images/corporate.png' %}" class="case-studies-card-img" alt="">
                   </div>  
                   <div class="card-desc-box d-flex align-items-center justify-content-around">
                     <div>
-                      <h6 class="text-white pb-2 px-3">Know more about Software Development</h6>
-                      <button class="btn btn-white">Read More</button>
+                      <h4 class="text-white pb-2 px-3">{{corporate_events}}</h4>
+                      <!-- <button class="btn btn-white">Read More</button> -->
                     </div>
                   </div>
                 </div>   
                 <div class="card-details text-center pt-4">
-                    <h6 class="m-0 pb-1">Software Development</h6>
-                    <p>Developing, Designing</p>
+                    <h4 class="m-0 pb-1">Корпоративы</h4>
+                    <!-- <p>Developing, Designing</p> -->
                 </div>
               </div>
             </div>
