@@ -1,6 +1,6 @@
 from random import choice
 from typing import Any
-from django.views.generic import TemplateView,DetailView
+from django.views.generic import TemplateView
 
 class MainPage(TemplateView):
     template_name = 'index.html'
@@ -27,10 +27,5 @@ class MainPage(TemplateView):
                                     "Ваши любимые артисты, ваше незабываемое впечатление."])
         return context
 
-class ContactPage(TemplateView):
-    template_name = 'main/contacts.html'
-
-class AboutPage(TemplateView):
-    template_name = 'main/about.html'
     
 
