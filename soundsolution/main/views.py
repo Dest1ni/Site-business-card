@@ -27,5 +27,6 @@ class MainPage(TemplateView):
                                     "Ваши любимые артисты, ваше незабываемое впечатление."])
         return context
 
-    
+class BirthdayPage(TemplateView):
+    template_name = "birthday.html"
 
